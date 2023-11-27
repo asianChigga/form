@@ -1,0 +1,17 @@
+.navbar-cont {
+    display: flex;
+    justify-content: space-between;
+}
+@media(max-width : 769px) {
+    .navbar-cont{
+        align-items: center;    
+        display: flex;
+        justify-content: center;
+        h2 {
+            font-size: 15px;
+        }
+        .logo {
+            display: none;
+        }
+    }
+}

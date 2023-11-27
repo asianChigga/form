@@ -1,0 +1,12 @@
+.App {
+  padding: 0.2em 5em;
+}
+body {
+  background-color: #EBF0F4;
+}
+
+@media(max-width:769px) {
+  .App {
+    padding: 0.2em 2.5em;
+  }
+}
