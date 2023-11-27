@@ -1,6 +1,8 @@
 .navbar-cont {
     display: flex;
     justify-content: space-between;
+    max-width: 600px;
+    margin-inline: auto;
 }
 @media(max-width : 769px) {
     .navbar-cont{
